@@ -1,0 +1,15 @@
+#headerRow {
+  position: relative;
+}
+
+#appInfoId {
+  padding-top: 15px;
+  padding-left: 50px;
+  position: relative;
+}
+
+#appInfoDiv {
+  padding-top: 8px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+  color: midnightblue;
+}

@@ -1,0 +1,21 @@
+<nav>
+  <header id="header">
+    <div class="row" id="headerRow">
+      <div class="col-sm-3">
+        <!--<img id="headerLogo" src="assets/images/metropolitan-logo.svg" alt="Metropolitan">-->
+      </div>
+      <div class="col-sm-6" id="appInfoDiv">
+        <span id="appInfoId" style="font-size:26px">Cloud Project - Frontend</span>
+        <i class="fa fa-cloud" style="font-size:26px"></i>
+      </div>
+      <div id="headerRightPortion" class="col-sm-3">
+        <button id="logoutButton" class="btn" (click)="logout()">
+          <i class="fa fa-user-circle-o" style="font-size:24px; color: ghostwhite"></i>
+        </button>
+        <button *ngIf="!pathVariable" class="btn" id="backButton" (click)="backToHomePage()">
+          <i class="fa fa-arrow-circle-left" style="font-size:25px; color:ghostwhite"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+</nav>

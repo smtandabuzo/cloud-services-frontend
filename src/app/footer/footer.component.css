@@ -1,0 +1,19 @@
+#footerRow {
+  height: 40px;
+}
+
+#footerLeftPortion {
+  background-image: -webkit-linear-gradient(45deg, #00244e 80%, ghostwhite 20%);
+}
+
+#footerDescription {
+  padding-top: 8px;
+  color: darkgrey;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: ghostwhite;
+}
