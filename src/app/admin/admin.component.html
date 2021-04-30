@@ -1,5 +1,29 @@
 <app-header></app-header>
 
+<p>admin page works!</p>
+
 <app-navigation></app-navigation>
+
+<div>
+  <mat-tab-group #tabGroup>
+    <mat-tab>
+      <div class="col-6">
+        <mat-card class="mat-card sync-card">
+          <mat-card-content>
+            <form action="">
+              <div>
+                  <mat-form-field>
+                    <mat-select placeholder="AWS Account">
+                      <mat-option>-- Select aws account --</mat-option>
+                    </mat-select>
+                  </mat-form-field>
+              </div>
+            </form>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+</div>
 
 <app-footer></app-footer>

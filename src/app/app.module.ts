@@ -7,7 +7,9 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavigationComponent } from './navigation/navigation.component';
-import { MatToolbarModule } from '@angular/material';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatToolbarModule, MatTabsModule, MatCardModule,
+  MatFormFieldModule, MatSelectModule } from '@angular/material';
 import { AdminComponent } from './admin/admin.component';
 import { ResourcePageComponent } from './resource-page/resource-page.component';
 
@@ -24,7 +26,12 @@ import { ResourcePageComponent } from './resource-page/resource-page.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatTabsModule,
+    MatCardModule,
+    MatFormFieldModule,
+    MatSelectModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
